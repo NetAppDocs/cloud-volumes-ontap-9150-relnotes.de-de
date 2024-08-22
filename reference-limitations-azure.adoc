@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations-azure.html 
+keywords: limitations, ha, azure, pay-as-you-go, paygo, cloud solution provider, vm, flash cache 
+summary: Diese bekannten Einschränkungen betreffen Cloud Volumes ONTAP in Microsoft Azure. 
+---
+= Bekannte Einschränkungen in Azure
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Die folgenden bekannten Einschränkungen betreffen Cloud Volumes ONTAP in Microsoft Azure. Achten Sie darauf, auch zu überprüfenlink:reference-limitations.html["Einschränkungen für Cloud Volumes ONTAP bei allen Cloud-Providern"].
+
+
+
+== Einschränkungen für Flash Cache
+
+Cloud Volumes ONTAP verwendet in einigen VM-Typen den lokalen NVMe Storage als „_Flash Cache_“. Beachten Sie diese Einschränkung:
+
+* Das Aufwärmen des Caches nach einem Neustart wird nicht unterstützt.
+
+
+
+
+== HA-Einschränkungen
+
+HA-Paare werden in einigen Regionen nicht unterstützt.
+
+https://cloud.netapp.com/cloud-volumes-global-regions["Zeigen Sie die Liste der unterstützten Azure Regionen an"^].
