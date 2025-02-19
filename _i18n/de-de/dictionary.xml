@@ -737,7 +737,6 @@
   <block id="1222cf807490df82fd7e0146eb6798c1" category="paragraph">Wenn das Wartungsfenster angekündigt wird, führt der Partner-Node des Zielknoten einen Takeover durch. Nach Abschluss der Wartung wird ein Giveback initiiert. Nach dem Giveback wird erwartet, dass das HA-Paar wieder in einen ordnungsgemäßen Zustand versetzt wird. Falls dieses Problem nicht auftritt, wenden Sie sich an den NetApp Support, um Hilfe zu erhalten. Beachten Sie, dass Wartungsereignisse jeweils auf eine der VMs in einem HA-Paar ausgerichtet sind und typischerweise beide Nodes innerhalb relativ kurzer Zeit geplant sind.</block>
   <block id="1355c3042f61af06b4a61506de6e8ad1" category="paragraph">CIFS/SMB-Clients, die nicht kontinuierlich verfügbare Cloud Volumes ONTAP-CIFS-Freigaben verwenden, gehen sowohl bei einer Übernahme in eine Sitzung verloren und wenn das Aggregat, das die Sitzung nutzt, zurück an den Home-Node des Aggregats übergeben wird. Dies wird durch das CIFS/SMB-Protokoll selbst auferlegt. Kunden sind möglicherweise an der Nutzung von Drittanbieterprodukten teilnehmen, um Probleme durch Takeover und Giveback zu vermeiden. Weitere Unterstützung erhalten Sie beim NetApp Support.</block>
   <block id="8e47e9575e2300fd877f61160058d7c0" category="sidebar">In diesen Versionshinweisen werden neue Funktionen, Einschränkungen und bekannte Probleme von Cloud Volumes ONTAP 9.15.0 beschrieben.</block>
-  <block id="3aecd779578c661d895e83c1e9e7274c" category="sidebar">Versionshinweise zu Cloud Volumes ONTAP 9.15.0</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Los geht's</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="sidebar">Übersicht über die Lizenzierung</block>
@@ -751,7 +750,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Versionshinweise zu Hause</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">Bekannte Einschränkungen</block>
@@ -760,4 +758,7 @@
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Einschränkungen in Azure</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Beschränkungen in Google Cloud</block>
   <block id="c3320c3457dfdfbada4a611a68854ea6" category="cell">Nicht Unterstützt</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Beschränkungen bei der Verwendung von Azure VM-Erweiterungen</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP unterstützt in einer Implementierung keine Erweiterungen für Azure Virtual Machine (VM) und VM-Applikationen. Die Verwendung von Cloud Volumes ONTAP in Azure mit VM-Erweiterungen führt zu Verzögerungen bei Operationen, und NetApp empfiehlt, diese zu vermeiden.</block>
+  <block id="30f90a351fdc853ffe232763d3200b8b" category="sidebar">Versionshinweise zu Cloud Volumes ONTAP 9.15.0</block>
 </blocks>
